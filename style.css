@@ -13,7 +13,7 @@ header {
 
 a:link, a:visited {
     color: #E5E7EB;
-    text-decoration: none;;
+    text-decoration: none;
 }
 
 div > h1 {
@@ -30,12 +30,12 @@ div > h1, header > h3 {
 }
 
 .head {
-    display:flex;
+    display: flex;
     direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: space-between;
-    padding-bottom: 8.25rem;
+    padding-bottom: 8rem;
 } 
 
 ul.navbar {
@@ -45,3 +45,23 @@ ul.navbar {
     justify-content: space-between;
 }
 
+.heading-below-nav {
+    display: flex;
+    margin-bottom: 3.85rem;
+}
+
+.heading-below-nav > * :not(.main-heading-img) {
+    display: flex;
+    flex-direction: column;
+    margin: .4rem 1rem;
+}
+
+div.main-heading-text > button {
+    padding: .5rem 2rem;
+    border-radius: .6rem;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    display:block;
+}
