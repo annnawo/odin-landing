@@ -48,12 +48,20 @@ ul.navbar {
 .heading-below-nav {
     display: flex;
     margin-bottom: 3.85rem;
+    flex-wrap: nowrap;
 }
 
 .heading-below-nav > * :not(.main-heading-img) {
     display: flex;
     flex-direction: column;
-    margin: .4rem 2.25rem 1rem 0rem;
+    margin: .4rem 3rem 1rem 0rem;
+}
+
+.main-heading-img {
+    align-self: center;
+    justify-self: flex-end;
+    margin-right: 0rem;
+    padding-right: 0rem;
 }
 
 div.main-heading-text > button {
@@ -64,5 +72,14 @@ div.main-heading-text > button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 900;
-    display:block;
+    display: block;
+}
+
+h2, .inspiring-quote:first-child {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+h2 {
+    font-weight: 'extra-bold';
 }
