@@ -83,7 +83,7 @@ h2 {
 }
 
 .maintx {
-    padding: 2rem 12rem;  
+    padding: 2rem 12rem 2rem 12rem;  
     display: grid;
     align-items: center;
     justify-items: center;
@@ -95,11 +95,23 @@ body > h2 {
 }
 
 .info-sets { 
-  /*   display: inline-flex;
+    display: inline-flex;
     overflow-wrap: break-word;
-    justify-items: center; */
+    justify-content: space-evenly;
+    padding: 2rem 3.5rem;
 }
 
+.photos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
-
+.subtext {
+    padding: 1rem 2.8rem;
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: center;
+}
 
