@@ -50,7 +50,6 @@ ul.navbar {
     margin-bottom: 3.85rem;
     justify-content: space-between;
     flex-wrap: nowrap;
-    position: relative;
 }
 
 h1, .main-heading-text > p {
@@ -73,32 +72,29 @@ div.main-heading-text > button {
     display: block;
 }
 
-h2, .inspiring-quote:first-child {
+h2, .quote-text {
     font-size: 36px;
     color: #1F2937;
 }
 
 h2 {
     font-weight: 'extra-bold';
+    display: flex;
+    padding-top: 1.5rem;
 }
 
-.maintx {
-    padding: 2rem 12rem 2rem 12rem;  
+.maintx  {
+    padding: 1.5rem 12rem 2rem 12rem;  
     display: grid;
     align-items: center;
     justify-items: center;
 }
 
-body > h2 {
-    display: flex;
-    padding-top: 2rem;
-}
-
 .info-sets { 
     display: inline-flex;
     overflow-wrap: break-word;
-    justify-content: space-evenly;
-    padding: 2rem 3.5rem;
+    justify-content: center;
+    padding: 3rem 3.5rem 2.5rem;
 }
 
 .photos {
@@ -106,12 +102,31 @@ body > h2 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border-radius: .6rem;
+    border: .17rem solid #3882F6;
 }
 
 .subtext {
-    padding: 1rem 2.8rem;
+    padding: 1rem 3rem 2rem;
     text-align: justify;
     -moz-text-align-last: justify;
     text-align-last: center;
+}
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+    padding: 9rem 20rem;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-attribute {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    font-weight: 900;
 }
 
