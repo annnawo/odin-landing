@@ -22,6 +22,7 @@ a:link, a:visited {
 div > h1 {
     font-size: 48px;
     font-weight: 'extra-bold';
+    padding-bottom: .3rem;
 }
 
 header > h3 {
@@ -55,8 +56,8 @@ ul.navbar {
     flex-wrap: nowrap;
 }
 
-h1, .main-heading-text > p {
-    padding-bottom: 1rem;
+.main-heading-text > p {
+    padding-bottom: .75rem;
 }
 
 .main-heading-img {
@@ -123,7 +124,7 @@ h2 {
     margin-right: auto;
     width: 50%;
     border-radius: .6rem;
-    border: .17rem solid #3882F6;
+    border: .2rem solid #3882F6;
 }
 
 .subtext {
@@ -148,6 +149,7 @@ h2 {
     justify-content: flex-end;
     padding-top: 1rem;
     font-weight: 900;
+    font-size: 20px;
 }
 
 .call-to-action {
@@ -171,6 +173,7 @@ h2 {
     font-size: 15px;
     font-weight: 600;
     padding: .5rem 1.8rem;
+    align-self: center;
 }
 
 footer {
