@@ -4,11 +4,14 @@
     margin: 0;
 }
 
-header {
+header, footer {
     background-color: #1F2937;
     color: #E5E7EB;
-    font-size: 18px;
-    padding: 1rem 12rem 3rem 12rem;  
+    font-size: 18px;  
+}
+
+header {
+    padding: 1rem 12rem 3rem 12rem;
 }
 
 a:link, a:visited {
@@ -72,6 +75,23 @@ div.main-heading-text > button {
     display: block;
 }
 
+div.main-heading-text > button {
+    border-color: #3882F6;
+    font-weight: 900;
+    padding: .5rem 2rem;
+}
+
+div.main-heading-text > button, #ctab {
+    border-radius: .6rem;
+    border-color: #3882F6;
+    color: #F9FAF8;
+    display: block;
+}
+
+div.main-heading-text > button, .call-to-action {
+    color: #F9FAF8;
+}
+
 h2, .quote-text {
     font-size: 36px;
     color: #1F2937;
@@ -130,3 +150,32 @@ h2 {
     font-weight: 900;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 12rem;
+    padding: 2.5rem 8rem;
+    background-color: #3882F6;
+    border-radius: .5rem;
+    font-size: 20px;
+}
+
+#boldcta {
+    padding-bottom: .25rem;
+}
+
+#ctab {
+    border: none;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    font-size: 15px;
+    font-weight: 600;
+    padding: .5rem 1.8rem;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 12rem;
+}
