@@ -1,2 +1,2 @@
 # odin-landing
-A demo landing page from the Odin Project
+A mock landing page from the Odin Project
